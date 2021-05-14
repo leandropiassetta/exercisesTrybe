@@ -43,7 +43,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 5-3: _JavaScript - Eventos_ :heavy_check_mark:
 - [x] 5-4: _JavaScript - Web Storage_ :heavy_check_mark:
 - [x] 5-5: _Fundamentos - Javascipt - Projetos_ :heavy_check_mark:
-- [ ] 5-5: _[Projeto - Meme Generator]()_
+- [x] 5-5: _[Projeto - Meme Generator]()_
 - [x] 5-6: _[Projeto - Arte com Pixels]()_ :heavy_check_mark:
 - [x] 5-7: _[Projeto - Lista de tarefas]()_ :heavy_check_mark:
 - [ ] 5-7: _[Projeto - Adivinhe a Cor]()_
@@ -83,7 +83,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [x] 10-1: _Primeiros passos no Jest_ :heavy_check_mark:
 - [x] 10-2: _Jest - Testes Assíncronos_ :heavy_check_mark:
-- [ ] 10-3: _Jest - Simulando comportamentos_
+- [x] 10-3: _Jest - Simulando comportamentos_
 - [x] 10-4: _[Projeto - Jest Assíncrono e Mocking]()_
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
