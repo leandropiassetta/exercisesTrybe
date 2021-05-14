@@ -3,12 +3,21 @@
 For the angles to be of a valid triangle, the sum of the three must be 180 degrees. If the angles are invalid, the program must return an error message.
 */
 
-let a = 50;
-let b = 30;
-let c = 100;
+const a = '50';
+const b = '30';
+const c = 100;
 
-if (a + b + c == 180){
-    console.log(true);
-} else {
-    console.log(false);
+
+function triangleAngle(a, b, c) {
+    const triangleAngle = 180;
+    const validation = Number(a) + Number(b) + Number(c);
+    
+    if(validation !== triangleAngle) {
+        throw new Error('Triangle angle invalid!!')
+    } else if(validation === triangleAngle) {
+        return true;
+    }
 }
+
+console.log(triangleAngle('50',b,c))
+// console.log(triangleAngle( 5, b, c))
