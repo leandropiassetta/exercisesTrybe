@@ -2,13 +2,13 @@
 3-Make a program that returns the largest of three numbers. Define at the beginning of the program three variables with the values that will be compared.
 */
 
-let number1 = 5; let number2 = 10; let number3 = 20;
+const numbers = []
 
-if (number1 > number2 && number1 > number3){
-    console.log(number1);
-}else if(number2 > number1 && number2 > number3){
-    console.log(number2);
+function returnLargerNumber(numbers) {
+    if(numbers.length < 1) {
+        throw new Error('Empty array numbers')
+    }
+    return Math.max(...numbers)
 }
- else{
-     console.log(number3);
- }
+
+console.log(returnLargerNumber(numbers))
