@@ -1,6 +1,6 @@
 /*
 
-1 - In this first exercise, go through the array printing all the values contained in it with the console.log() function;
+
 2 - For the second exercise, you must sum all the values contained in the array and print the result;
 3 - For the third exercise, calculate and print the arithmetic mean of the values contained in the array;
 4 - The arithmetic mean is the result of the sum of all the elements divided by the total number of elements.
