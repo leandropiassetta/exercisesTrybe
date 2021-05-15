@@ -29,6 +29,6 @@ switch(piece.toLowerCase()){
     default:
         console.log("Please, insert a valid piece")            
 }
- 
+
 
 
