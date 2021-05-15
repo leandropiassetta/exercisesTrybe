@@ -34,4 +34,3 @@ else if(proofNote< 50 ){
 else {
     console.log("Error")
 }
-   
