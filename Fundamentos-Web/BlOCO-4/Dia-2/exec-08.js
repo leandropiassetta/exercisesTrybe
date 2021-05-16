@@ -1,0 +1,1 @@
+// 8 - Using for, create an array from 1 to 25 and print the result. //

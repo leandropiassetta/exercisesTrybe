@@ -1,0 +1,1 @@
+// 9 - Using the array created in the previous exercise, print the result of the division of each of the elements by 2. //

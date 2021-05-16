@@ -1,0 +1,1 @@
+//6 - Find out how many odd values there are in the array and print the result. If there are none, print the message: "no odd value found".//

@@ -1,0 +1,1 @@
+//5 - Using it, find out which is the highest value contained in the array and print it.//
