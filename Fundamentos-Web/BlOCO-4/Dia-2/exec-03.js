@@ -3,10 +3,11 @@
 const numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 const arithmeticAverage = (numbers) => {
-  console.log(numbers.reduce((sumTotal, number, index, totalNumbers) => {
+  return numbers.reduce((sumTotal, number, _, totalNumbers) => {
       sumTotal += number / totalNumbers.length;
-      return sumTotal;
-  }, 0).toFixed(2));
+      const average = sumTotal
+      return average;
+  }, 0).toFixed(2);
 }
 
-arithmeticAverage(numbers)
+console.log(arithmeticAverage(numbers))
