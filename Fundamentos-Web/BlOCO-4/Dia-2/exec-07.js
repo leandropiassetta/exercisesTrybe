@@ -1,0 +1,1 @@
+// 7 - Using for, find out which is the smallest value contained in the array and print it. //
