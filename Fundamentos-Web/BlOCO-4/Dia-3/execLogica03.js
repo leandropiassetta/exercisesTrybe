@@ -1,27 +1,11 @@
 //Exercises 3:
-/*Now invert the side of the triangle. For example:
+/*Now invert the side of the triangle rectangle. For example:
 */
 
-let n = 5 
-
-for (let ast = 1; ast <= n; ast += 1 ) {
-    let spaces = "";
-    let asterisk = "";
-    let line = "";
-
-//spaces
-
-for (let sp = 0; sp < n - ast; sp += 1){
-    spaces += " ";
-}
- 
-//asterisko
-
-for(let st = 1; st <= ast; st += 1){
-    asterisk += "*";
+function invertTriangleRectangle(size) {
+    for (i = 1; i <= size; i++) {
+        console.log('*'.repeat(i).padStart(size, ' '));
+    }
 }
 
-line = spaces + asterisk;
-
-console.log(line);
-}
+invertTriangleRectangle(5)
