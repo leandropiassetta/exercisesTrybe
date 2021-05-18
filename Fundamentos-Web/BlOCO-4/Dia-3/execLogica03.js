@@ -9,3 +9,17 @@ function invertTriangleRectangle(size) {
 }
 
 invertTriangleRectangle(5)
+
+// Another way
+let numberLines = 10;
+
+for (i = 1; i <= numberLines; i++) {
+    let line = '';
+    for (space = 0; space < numberLines - i; space++) {
+    line += ' ';
+    }
+    for (asterisko = 0; asterisko < i; asterisko++) {
+    line += '*';
+    }
+    console.log(line);
+}

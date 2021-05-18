@@ -20,7 +20,7 @@ function createSquare() {
 }
 createSquare();
 
-// Other Way
+// Another Way
 
 const createSquare2 = (baseLine) => {
     for (i = 1; i <= baseLine; i++) {
