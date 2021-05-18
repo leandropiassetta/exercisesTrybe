@@ -18,5 +18,14 @@ function createSquare() {
     }
     return column;
 }
-
 createSquare();
+
+// Other Way
+
+const createSquare2 = (baseLine) => {
+    for (i = 1; i <= baseLine; i++) {
+        console.log('*'.repeat(baseLine))
+    }
+}
+
+createSquare2(5);
