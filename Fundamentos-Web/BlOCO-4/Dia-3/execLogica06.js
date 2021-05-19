@@ -15,12 +15,12 @@ let arrayNumbers = [];
     }
     return arrayNumbers;
 }
-function isPrime(num) {
-    for(divisor = 2; divisor <num; divisor++)
+function isPrime(number) {
+    for(divisor = 2; divisor <number; divisor++)
         if(num % divisor === 0) {
             return false
         };
-    return num > 1
+    return number > 1
 }
 
 console.log(primeNumbers(13));
