@@ -2,30 +2,16 @@
 /*Then, make a pyramid with n base asterisks:
 */
 
-n = 5; //always odd
 
-//number of characters of the current line
+let n = 5;
 
-let numberChar = Math.ceil(n / 2);
-
-for (let ast = 1; ast <= n; ast += 2) {
-  //ast = amount of asterisk that will exist in the line
-  let line = "";
-  let spaces = "";
-  let asterisk = "";
-
-  for (let sp = 1; sp <= numberChar - ast; sp += 1) {
-    //sp = line space counter
-    spaces += " ";
+for (let i = 1; i <= n; i += 2) {
+  let line = '';
+  for (let s = 0; s < Math.ceil((n - i) / 2); s++) {
+    line += 'l';
   }
-
-  for (let st = 1; st <= ast; st += 1) {
-    //st = asterisk counter on the line
-    asterisk += "*";
+  for (let c = 0; c < i; c++) {
+    line += '*';
   }
-  //defining amount of asteristic in the line
-  numberChar += 1;
-  line = spaces + asterisk;
-
   console.log(line);
 }

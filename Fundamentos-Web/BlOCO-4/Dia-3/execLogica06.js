@@ -1,23 +1,27 @@
-//Exercises 6:
+/*
+    Make a program that says whether a number defined in a variable is prime or not.
 
-/*Faça um programa que diz se um número definido numa variável é primo ou não.
-Um número primo é um número que só é divisível por 1 e por ele mesmo, ou seja, a divisão dele com quaisquer outros números dá resto diferente de zero.
-Dica: você vai precisar de fazer um loop que vá de 0 ao número definido; Além disso, vai precisar de fazer uma checagem a cada iteração e armazenar os resultados em algum lugar.
+A prime number is a number that is only divisible by 1 and itself, that is, dividing it with any other numbers gives remainder other than zero.
 */
 
+//Exercises 6:
 
-let number = 11;
-
-let amountOfDividers = 0;
-
-for (let divisor = 1; divisor <= number ; divisor +=1) {
-    if(number % divisor === 0){
-        amountOfDividers +=1;
+function primeNumbers(numbers) {
+let arrayNumbers = [];
+    for (number = 0; number <= numbers; number++) {
+        if (isPrime(number)) {
+        arrayNumbers.push(number);
+        }
     }
+    return arrayNumbers;
+}
+function isPrime(num) {
+    for(divisor = 2; divisor <num; divisor++)
+        if(num % divisor === 0) {
+            return false
+        };
+    return num > 1
 }
 
-if (amountOfDividers === 2){
-    console.log("prime");
-} else {
-    console.log("no prime");
-}
+console.log(primeNumbers(13));
+
