@@ -1,6 +1,6 @@
 /*Make a for/in that shows all the keys of the object.*/
 const  infoPersonage = {
-  personage: 'Margarida',
+  personage: 'Daisy Duck',
   origin: 'Pato Donald',
   note: 'Girlfriend of the main personage in Donald Duck comics.',
   recurrent: 'Yes'
@@ -19,9 +19,9 @@ const  infoPersonage = {
 
 const showAllKeys = (object) => {
   for(key in object) {
-    console.log(key)
+    console.log(key);
   }
 }
 
-showAllKeys(infoPersonage)
+showAllKeys(infoPersonage);
 

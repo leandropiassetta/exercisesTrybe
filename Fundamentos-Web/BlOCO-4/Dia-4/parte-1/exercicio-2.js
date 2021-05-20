@@ -3,7 +3,7 @@
 // value expected in the console //
 
 const  infoPersonage = {
-  personage: 'Margarida',
+  personage: 'Daisy Duck',
   origin: 'Pato Donald',
   note: 'Girlfriend of the main personage in Donald Duck comics.',
   recurrent: 'Yes'
@@ -13,6 +13,6 @@ const  infoPersonage = {
 
 const addNewKeyAndValue = (key, value, obj) => obj[key] = value;
 
-addNewKeyAndValue('recurrent', 'yes', infoPersonage)
+addNewKeyAndValue('recurrent', 'yes', infoPersonage);
 
-console.log(infoPersonage)
+console.log(infoPersonage);
