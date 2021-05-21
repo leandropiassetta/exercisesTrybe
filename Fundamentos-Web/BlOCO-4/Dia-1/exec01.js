@@ -1,12 +1,3 @@
-/*
-1 - Make five programs, one for each basic arithmetic operation. Your program must have two variables, a and b, defined at the beginning with the values that will be operated. Make programs for:
-Add
-Subtraction
-Multiplication
-Division
-Module
-*/
-
 let a = 5;
 let b = 10;
 
