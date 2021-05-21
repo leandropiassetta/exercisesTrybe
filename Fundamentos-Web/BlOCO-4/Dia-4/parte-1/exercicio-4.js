@@ -1,7 +1,7 @@
 /* Make a new for/in, but now show all the key values of the object.*/
 const  infoPersonage = {
   personage: 'Daisy Duck' ,
-  origin: 'Pato Donald',
+  origin: 'Donald Duck',
   note: 'Girlfriend of the main personage in Donald Duck comics.',
   recurrent: 'Yes'
 };
@@ -9,8 +9,8 @@ const  infoPersonage = {
 // The value extpected in the console:
 
 /*
-    Margarida
-    Pato Donald
+    Daisy Duck
+    Donald Duck
     Girlfriend of the main personage in Donald Duck comics.
     Yes
 */
