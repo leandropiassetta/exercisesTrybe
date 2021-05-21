@@ -1,10 +1,3 @@
-/* Write a program that takes the name of a chess piece and returns the moves it makes.
-As a challenge, make the program work both if it receives the name of a chess piece with capital letters and with small letters, without increasing the amount of conditional.
-As a hint, you can search for a function that makes a string case (lower case).
-If the past part is invalid, the program must return an error message.
-Example: bishop -> diagonals
-*/
-
 let piece = "hOrSe"
 
 switch(piece.toLowerCase()){

@@ -1,17 +1,3 @@
-/*
-Write a program that converts a given grade in percent (from 0 to 100) into concepts from A to F. Follow these rules:
-
-Percentage >= 90 -> A
-Percentage >= 80 -> B
-Percentage >= 70 -> C
-Percentage >= 60 -> D
-Percentage >= 50 -> E
-Percentage < 50 -> F
-The program must return an error message and close if the past note is less than 0 or more than 100.
-
-*/
-
-
 let proofNote = 90;
 
 if (proofNote <= 100 && proofNote >=90){
