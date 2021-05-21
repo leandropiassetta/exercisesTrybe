@@ -4,7 +4,7 @@
 
 const  infoPersonage = {
   personage: 'Daisy Duck',
-  origin: 'Pato Donald',
+  origin: 'Donald Duck',
   note: 'Girlfriend of the main personage in Donald Duck comics.',
   recurrent: 'Yes'
 };

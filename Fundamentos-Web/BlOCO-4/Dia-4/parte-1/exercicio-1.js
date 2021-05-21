@@ -1,11 +1,8 @@
 //Exercises 01:
 
-/* Using the object below, do the following exercises:
-*/
-
 const  infoPersonage = {
   personage: 'Daisy Duck',
-  origin: 'Pato Donald',
+  origin: 'Donald Duck',
   note: 'Girlfriend of the main personage in Donald Duck comics.',
 };
 
@@ -16,8 +13,8 @@ const  infoPersonage2 = {
 };
 
 /* Print a welcome message on the console for the character above, including his name.
-  Expected value on the console: Welcome, Margarida */
+  Expected value on the console: Welcome, Daisy Duck */
 
 const welcomeToPersonage = (obj) => console.log(`Welcome, ${obj['personage']}!!`);
 
-welcomeToPersonage(infoPersonage2);
+welcomeToPersonage(infoPersonage);
