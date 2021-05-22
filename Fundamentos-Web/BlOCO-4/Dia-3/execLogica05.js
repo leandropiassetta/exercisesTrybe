@@ -3,19 +3,22 @@
 
 //Exercises 5:
 
-let n = 11;
-
-for (let i = 1; i <= n; i += 2) {
-  let line = '';
-  for (let s = 0; s < Math.ceil((n - i) / 2); s++) {
-    line += ' ';
-  }
-  for (let c = 0; c < i; c++) {
-    if (c == 0 || c == i - 1 || i == n) {
-      line += '*';
+let base = 7;
+let meio = (base + 1) / 2;
+let esquerda = meio;
+let direita = meio;
+for (let linha = 1; linha <= meio; linha += 1) {
+  let imprimir = '';
+  for (let coluna = 1; coluna <= base; coluna += 1) {
+    if (coluna === direita || coluna === esquerda || linha === meio) {
+      imprimir = imprimir + '*';
     } else {
-      line += ' ';
+      imprimir = imprimir + ' ';
     }
   }
-  console.log(line);
+  console.log(imprimir);
+  esquerda -= 1;
+  direita += 1;
+  imprimir = '';
+
 }
