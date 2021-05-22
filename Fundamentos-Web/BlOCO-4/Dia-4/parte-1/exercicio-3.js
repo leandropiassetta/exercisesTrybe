@@ -1,18 +1,18 @@
 /*Make a for/in that shows all the keys of the object.*/
 const  infoPersonage = {
-  personage: 'Daisy Duck',
-  origin: 'Donald Duck',
-  note: 'Girlfriend of the main personage in Donald Duck comics.',
-  recurrent: 'Yes'
+  personagem: 'Margarida',
+  origem: 'Pato Donald',
+  nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
+  recorrente: 'Sim'
 };
 
 // The value expected in the console:
 
 /*
-    personage
-    origin
-    note
-    recurrent
+  personagem
+  origem
+  nota
+  recorrente
 */
 
 // Exercise 3:

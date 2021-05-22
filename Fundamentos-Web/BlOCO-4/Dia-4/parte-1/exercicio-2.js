@@ -1,18 +1,17 @@
-  /* Insert a new property with the key name "recurring" and the value "Yes" in the object and then print the object on the console. */
+  /* Insert a new property with the key name "recorrente" and the value "Sim" in the object and then print the object on the console. */
 
 // value expected in the console //
 
 const  infoPersonage = {
-  personage: 'Daisy Duck',
-  origin: 'Donald Duck',
-  note: 'Girlfriend of the main personage in Donald Duck comics.',
-  recurrent: 'Yes'
+  personagem: 'Margarida',
+  origem: 'Pato Donald',
+  nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
 };
 
 // Exercise 2:
 
 const addNewKeyAndValue = (key, value, obj) => obj[key] = value;
 
-addNewKeyAndValue('recurrent', 'yes', infoPersonage);
+addNewKeyAndValue('recorrente', 'Sim', infoPersonage);
 
 console.log(infoPersonage);
