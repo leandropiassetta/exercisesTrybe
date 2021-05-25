@@ -4,8 +4,8 @@ const arrNumber = [2, 4, 6, 7, 10, 0, -3];;
 
 const lowestNumberIndex = (integerArr) => {
   const lowestNumber = Math.min(...integerArr);
-  const lowestIndex = integerArr.indexOf(lowestNumber)
-  console.log(lowestIndex)
+  const lowestIndex = integerArr.indexOf(lowestNumber);
+  return lowestIndex;
 }
 
-lowestNumberIndex(arrNumber)
+console.log(lowestNumberIndex(arrNumber));
