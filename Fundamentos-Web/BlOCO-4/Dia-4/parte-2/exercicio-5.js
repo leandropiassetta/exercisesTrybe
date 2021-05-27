@@ -12,9 +12,9 @@ function numberWithMoreRepetitions(arr) {
   }, {});
 
   const entries = Object.entries(counts);
-  entries.sort((countA, countB) => countB[1] - countA[1]);
+  const numMoreRepeat = entries.sort((countA, countB) => countB[1] - countA[1])[0][0];
 
-  return entries[0][0];
+  return `The number that is more repeated in the Array is this: ${numMoreRepeat}`;
 }
 
 console.log(numberWithMoreRepetitions(numbers))
