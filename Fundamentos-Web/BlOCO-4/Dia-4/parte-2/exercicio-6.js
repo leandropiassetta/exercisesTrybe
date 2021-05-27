@@ -1,7 +1,6 @@
 // Exercise 6:
 
-const numInteger = 5;
-
+// Test value = 5
 // The expected value is -> 15
 
 function sumTotalNumInteger (number) {
