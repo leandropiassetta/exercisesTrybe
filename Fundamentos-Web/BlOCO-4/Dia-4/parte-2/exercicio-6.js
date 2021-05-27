@@ -1,7 +1,7 @@
 // Exercise 6:
 
 // Test value = 5
-// The expected value is -> 15
+// The expected value is --> 15
 
 function sumTotalNumInteger (number) {
   const arrayNumber = [...new Array(number)].reduce((acc, _, i) => {
