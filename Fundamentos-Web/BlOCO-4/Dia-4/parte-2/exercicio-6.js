@@ -8,7 +8,7 @@ function sumTotalNumInteger (number) {
     acc += i;
     return acc;
   }, 0);
-  console.log(arrayNumber + number)
+  console.log(arrayNumber + number);
 }
 
-sumTotalNumInteger(5)
+sumTotalNumInteger(5);

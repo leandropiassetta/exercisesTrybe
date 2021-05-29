@@ -17,4 +17,4 @@ function numberWithMoreRepetitions(arr) {
   return `The number that is more repeated in the Array is this: ${numMoreRepeat}`;
 }
 
-console.log(numberWithMoreRepetitions(numbers))
+console.log(numberWithMoreRepetitions(numbers));
