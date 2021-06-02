@@ -22,7 +22,9 @@ function combineRomanNumbers(numberA, numberB) {
 
 function romanToDecimal(romanNumber) {
   const lastRomanNumber = romanNumber[romanNumber.length - 1]
+
   let result = romanDigitToDecimal(lastRomanNumber);
+
   for (let index = romanNumber.length - 1; index > 0; index -= 1) {
     const A = romanNumber[index - 1];
     const B = romanNumber[index];
